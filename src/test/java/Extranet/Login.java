@@ -18,7 +18,7 @@ public class Login {
         driver.findElement(By.xpath("//*[@id=\"login-username\"]")).sendKeys("trushant69@gmail.com");
         driver.findElement(By.xpath("//*[@id=\"login-password\"]")).sendKeys("Staah@11");
         driver.findElement(By.xpath("//*[@class=\"btn btn-primary\"]")).click();
-        
+        System.out.println("ok");
 
     }
 }
